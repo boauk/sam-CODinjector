@@ -1,0 +1,50 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+/.venv/
+/venv/
+/.agents/
+/.codex/
+
+# Datasets, model weights, predictions and experiment outputs
+/data/
+/work_dir/
+/outputs/
+/hot/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.log
+events.out.tfevents.*
+/wandb/
+
+# Temporary presentation builds and their dependencies
+/.ppt_build_*/
+/.ppt_edit_build_*/
+node_modules/
+
+# Local paper/figure editing helpers
+/fix_m3_architecture_connector.py
+/inspect_architecture_crop.py
+/m3_architecture*_prompt.txt
+/scripts_restore_owl_image.mjs
+/scripts/fill_ablation_section.py
+/scripts/reorder_and_insert_references.py
+/scripts/revise_methodology_docx.py
+/消融/各版本对比.jpg
+
+# Local archives and secrets
+*.zip
+*.7z
+*.rar
+.env
+.env.*
+!.env.example
+
+# Temporary clean copy for republishing
+/clean-upload/

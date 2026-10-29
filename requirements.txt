@@ -1,0 +1,20 @@
+# Core deep learning stack.
+# Install the torch/torchvision build that matches your CUDA version.
+# For your current CUDA 12.1 setup, one working example is:
+# pip install torch==2.1.1 torchvision==0.16.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.1.1
+torchvision==0.16.1
+
+# Vision-Language SAM training dependencies.
+transformers==4.40.2
+monai
+accelerate
+einops
+
+# Data processing and metrics.
+numpy==1.26.4
+scipy
+scikit-image==0.22.0
+pillow==9.4.0
+tqdm==4.65.0
+matplotlib==3.7.1
