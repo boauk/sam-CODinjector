@@ -1,6 +1,6 @@
-# Vision-camo-SAM
+# sam-CODinjector
 
-面向伪装目标检测与分割（Camouflaged Object Detection, COD）的实验代码。在 Grounded-SAM 基础流程上进行任务适配，研究语义与空间先验、编码器先验注入及分组 Adapter，并提供相应的消融实验与可视化脚本。
+面向伪装目标检测与分割（Camouflaged Object Detection, COD）的实验代码。在MM-SAM的基础上进行改进，参考 Grounded-SAM 基础流程上进行任务适配，研究语义与空间先验、编码器先验注入及分组 Adapter，并提供相应的消融实验与可视化脚本。
 
 ## 实验评测
 
