@@ -50,8 +50,6 @@ data/
 | `eval_vlsam_dino.py` | 批量推理、预测图导出及即时指标检查 |
 | `vlsam_dino_model.py` | 模型与先验分支 |
 | `segment_anything/` | SAM 相关组件 |
-| [消融/](消融/README.md) | 各消融版本及替换说明 |
-| [纯 SAM 基线](消融/纯sam/README.md) | 无外部提示的 SAM 微调基线及运行命令 |
 | `visualize_m3_*.py` | 先验、特征与交叉注意力可视化 |
 
 感谢公开数据集及 PySODEvalToolkit 的作者提供实验资源与评测工具。
